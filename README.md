@@ -14,12 +14,12 @@
 
 Please have a look at the file in `src/data.js`. You will need to use this data to populate the React components.
 
-After you have done this, please look at the following:
+Please look at the following:
 
-1. Edit the existing dropdown so you can select a fruit type
-2. Add an extra dropdown beside it so you can select the variety of the selected fruit
-3. Add the ability to add extra fruit by adding rows of dropdowns underneath
-4. Add the ability to remove a fruit (row of dropdowns)
+1. Edit the existing dropdown so that the fruit types are populated using the data.
+2. Edit the existing dropdown so that the variety of the selected fruit is populated using the data.
+3. Add the ability to add extra fruit by adding rows of dropdowns underneath.
+4. Add the ability to remove a fruit (row of dropdowns).
 
 A rough mock-up of what this might look like is here:
 
