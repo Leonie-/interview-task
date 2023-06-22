@@ -1,0 +1,27 @@
+{
+    "parser": "@babel/eslint-parser",
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "globals": {
+        "afterEach": true,
+        "Shell": true
+    },
+    "plugins": ["jest"],
+    "rules": {
+        "camelcase": [1],
+        "comma-dangle": ["error", "only-multiline"],
+        "global-require": [1],
+        "jest/no-disabled-tests": "error",
+        "jest/no-focused-tests": "error",
+        "jest/no-identical-title": "error",
+        "max-statements-per-line": ["error", { "max": 1 }],
+        "no-throw-literal": [1],
+        "no-useless-catch": "off",
+        "one-var-declaration-per-line": [2],
+        "react/function-component-definition": [
+            2,
+            { "namedComponents": "arrow-function", "unnamedComponents": "arrow-function" }
+        ],
+        "react/jsx-props-no-spreading": "off",
+        "react/require-default-props": [0]
+    }
+}

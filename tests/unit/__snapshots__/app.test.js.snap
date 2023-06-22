@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Metrics renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="interview"
+  >
+    <h1>
+      Fruit Selector
+    </h1>
+    <label
+      for="fruit"
+    >
+      Choose a fruit: 
+    </label>
+    <select
+      data-testid="fruit-select"
+      id="fruit"
+      name="fruit"
+    >
+      <option
+        data-testid="fruit-option"
+        value="one"
+      >
+        One
+      </option>
+      <option
+        data-testid="fruit-option"
+        value="two"
+      >
+        Two
+      </option>
+      <option
+        data-testid="fruit-option"
+        value="three"
+      >
+        Three
+      </option>
+      <option
+        data-testid="fruit-option"
+        value="four"
+      >
+        Four
+      </option>
+    </select>
+  </div>
+</DocumentFragment>
+`;

@@ -3,19 +3,27 @@ import React from "react";
 import "./styles/reset.css";
 import "./styles/index.css";
 
-const App = () => {
+const App = ({ data }) => {
     return (
-        <div class="interview">
+        <div className="interview">
             <h1>Fruit Selector</h1>
-            <label for="fruit">Choose a fruit: </label>
-            <select name="fruit" id="fruit" data-testid="fruit">
-                <option value="one">One</option>
-                <option value="two">Two</option>
-                <option value="three">Three</option>
-                <option value="four">Four</option>
+            <label htmlFor="fruit">Choose a fruit: </label>
+            <select name="fruit" id="fruit" data-testid="fruit-select">
+                <option value="one" data-testid="fruit-option">
+                    One
+                </option>
+                <option value="two" data-testid="fruit-option">
+                    Two
+                </option>
+                <option value="three" data-testid="fruit-option">
+                    Three
+                </option>
+                <option value="four" data-testid="fruit-option">
+                    Four
+                </option>
             </select>
         </div>
     );
 };
 
-export default App;
+export { App };
