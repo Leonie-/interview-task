@@ -6,6 +6,7 @@
 -   If you have time, please check out this repository and install using `npm i`
 -   You can run the server using `npm run serve` and the site will be visible on [http://localhost:8000/](http://localhost:8000/).
 -   Jest tests and Linting can be run using `npm run test`.
+-   Cypress test can be run using `npm run test:e2e`.
 
 ## During The Interview
 
