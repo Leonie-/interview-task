@@ -18,8 +18,9 @@ Please look at the following:
 
 1. Edit the existing dropdown so that the fruit types are populated using the data.
 2. Edit the existing dropdown so that the variety of the selected fruit is populated using the data.
-3. Add the ability to add extra fruit by adding rows of dropdowns underneath.
+3. Add the ability to add extra fruit by adding rows of dropdowns underneath. The number of rows should not exceed the number of fruit available.
 4. Add the ability to remove a fruit (row of dropdowns).
+5. Ensure that the a fruit type can only be selected once (e.g. when "Apples" have been selected, they should not appear as an option in subsequent dropdowns).
 
 A rough mock-up of what this might look like is here:
 
