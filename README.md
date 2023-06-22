@@ -27,4 +27,5 @@ A rough mock-up of what this might look like is here:
 ![](./mock-up.png)
 
 Please update the Jest and Cypress tests.
+
 If you have not used React testing Library before this [Cheatsheet](https://testing-library.com/docs/react-testing-library/cheatsheet/) might be helpful.
