@@ -10,6 +10,8 @@
 
 ## During The Interview
 
+⚠️ **This is a long exercise, you are not expected to complete it all during the interview.** ⚠️
+
 Please have a look at the file in `src/data.js`. You will need to use this data to populate the React components.
 
 After you have done this, please look at the following:
@@ -23,6 +25,5 @@ A rough mock-up of what this might look like is here:
 
 ![](./mock-up.png)
 
-This is a long exercise, you are not expected to complete it all during the interview.
-Please ensure that you update the Jest and Cypress tests.
+Please update the Jest and Cypress tests.
 If you have not used React testing Library before this [Cheatsheet](https://testing-library.com/docs/react-testing-library/cheatsheet/) might be helpful.
