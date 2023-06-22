@@ -6,3 +6,19 @@ body {
     padding: 20px;
     background-color: #fff;
 }
+
+.fruit {
+    margin-bottom:10px;
+}
+
+.fruit-select {
+    min-width: 200px;
+}
+
+.add {
+    margin-top:20px;
+}
+
+.remove {
+    padding-left: 10px;
+}
