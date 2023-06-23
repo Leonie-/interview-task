@@ -3,7 +3,7 @@ import { render, waitFor, fireEvent } from "@testing-library/react";
 
 import { App } from "../../src/app";
 
-describe("Metrics", () => {
+describe("Fruit Selector", () => {
     test("shows single dropdown with options", async () => {
         const { queryAllByTestId } = render(<App />);
         expect(queryAllByTestId("fruit-select").length).toBe(1);
